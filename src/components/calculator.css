@@ -1,0 +1,42 @@
+.btn{
+    width: 70px;
+    height: 70px;
+}
+.btn__long{
+    width: 140px;
+    height: 70px;
+}
+.btn__short{
+    width: 70px;
+    height: 140px;
+}
+
+.keypad{
+    display: flex;
+    background-color: aqua;
+}
+.calculator{
+    width: 280px;
+    border: solid 2px black;
+}
+#display{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: yellow;
+    text-align: end;
+
+}
+.display__main{
+    font-size: 32px;
+    display: block;
+    height: fit-content;
+}
+
+.left{
+    flex: 3;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
