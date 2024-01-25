@@ -21,16 +21,17 @@
 }
 #display{
     width: 100%;
-    height: fit-content;
     background-color: black;
     color: yellow;
     text-align: end;
-
+    display: flex;
+    flex-direction: column;
+    height: 60px;
 }
 .display__main{
     font-size: 32px;
     display: block;
-    height: fit-content;
+    margin-bottom: 15px;
 }
 
 .left{
